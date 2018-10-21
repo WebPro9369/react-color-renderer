@@ -1,0 +1,42 @@
+#app .view {
+  padding: 20px;
+}
+
+#root {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+#tab1, #tab2 {
+  width: 100%;
+  height: 100%;
+  min-height: 100px;
+  padding: 20px;
+  border: 1px solid #000000;
+}
+
+#sidebar {
+  flex: 1;
+  width: 30%;
+  padding: 30px;
+}
+
+#content-panel {
+  padding-left: 50px;
+  width: 70%;
+  height: 100%;
+  flex: 3;
+}
+
+input.color-slider {
+  width: 200px;
+}
+
+input.color-value {
+  width: 40px;
+}
+
+a {
+  margin: 10px;
+}
